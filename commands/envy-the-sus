@@ -1,0 +1,14 @@
+/*
+ * I dont really have an explanation for the command name other than funny
+ */
+
+const { SlashCommandBuilder } = require('@discordjs/builders'); 
+
+module.exports = {
+	data: new SlashCommandBuilder() //To actually deploy the slash commands
+    .setName("s") // Set the name
+    .setDescription("s"), //Add a description
+	async execute(interaction) {
+		await interaction.reply({ content: `s`}); // Put in what you want
+	},
+};
