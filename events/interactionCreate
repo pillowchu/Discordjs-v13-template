@@ -1,6 +1,6 @@
 /*
  * Basically if you dont have the permissions you cant do it 
- * And also tells you if you fucked up
+ * And also tells you if you fucke up
  */
 module.exports = {
 	name: 'interactionCreate',
